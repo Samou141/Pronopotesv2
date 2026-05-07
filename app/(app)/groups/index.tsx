@@ -1,4 +1,5 @@
 import { useRouter } from 'expo-router';
+import * as Clipboard from 'expo-clipboard';
 import { Plus, Users, ChevronRight, Copy } from 'lucide-react-native';
 import React, { useState } from 'react';
 import {
@@ -11,7 +12,6 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import * as Clipboard from 'expo-clipboard';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useGroups } from '@hooks/useGroups';
 import { Card } from '@ui/Card';

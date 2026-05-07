@@ -61,7 +61,7 @@ function BottomSheetProvider({ children }: { children: React.ReactNode }) {
 export default function RootLayout() {
   return (
     <ErrorBoundary>
-      <GestureHandlerRootView style={{ flex: 1, backgroundColor: '#0f172a' }}>
+      <GestureHandlerRootView style={{ flex: 1, height: '100%', backgroundColor: '#0f172a' }}>
         <BottomSheetProvider>
           <AuthGuard>
             <StatusBar style="light" />
